@@ -39,16 +39,33 @@ img {pointer-events: none;}
 
 
 /*NAVIGATION & HERO*/
-.brand-square {
-	width: 67px;
-	height: 67px;
-	-webkit-box-shadow: 12px 12px 0px 0px rgba(255,255,255,0.75);
-	-moz-box-shadow: 12px 12px 0px 0px rgba(255,255,255,0.75);
-	box-shadow: 12px 12px 0px 0px rgba(255,255,255,0.75);}
+.navbar-brand {
+	padding-left: .3rem;
+	/*padding-right: 6rem;*/
+	padding-top: .2rem;
+}
 
-.navbar {
+.brand-square {
+	width: 2.8em;
+	height: 2.8em;
+	-webkit-box-shadow: .5em .35em 0px 0px rgba(255,255,255,0.75);
+	-moz-box-shadow: .5em .35em 0px 0px rgba(255,255,255,0.75);
+	box-shadow: .5em .35em 0px 0px rgba(255,255,255,0.75);}
+
+#navbar {
 	border-bottom: 1px solid rgba(255,255,255,0.75);
 	z-index: 999;}
+
+/*.navbar-nav .nav-link {
+    padding-right: 1.4rem;
+    padding-left: 0.7rem;
+}*/
+
+/*.navbar-nav .nav-link:last-child {
+    padding-right: 0;
+}*/
+
+#icons {}
 
 .hero-descr {
 	color: #11749e;
@@ -63,7 +80,10 @@ img {pointer-events: none;}
 
 /*OPTIONS & ETC*/
 .vh-100 {height: 100vh;}
-.pt-10 {padding-top: 10rem;}
+.pt-10 {
+	padding-top: 10rem;
+	z-index: 3;
+}
 
 .absolute-center {
 	left: 0;
@@ -91,6 +111,12 @@ img {pointer-events: none;}
 #map {height: 332px;}
 #footer {height: 123px;}
 /*SIZES END*/
+
+/*FONTS*/
+/*FONTS END*/
+
+/*PADDINGS*/
+/*PADDINGS END*/
 
 
 /*.overflow-hidden {overflow: hidden;}*/

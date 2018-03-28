@@ -16,7 +16,7 @@
     }
   }
   
-  setTimeout(function(){updatePosition(getLocation());}, 5000);
+  // setTimeout(function(){updatePosition(getLocation());}, 5000);
 
   // window.onload = function(){updatePosition(getLocation());}
   
