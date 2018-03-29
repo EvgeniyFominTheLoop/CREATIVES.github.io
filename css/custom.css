@@ -1,6 +1,6 @@
 @media (max-width: 575.98px) {
-	.display-1 {font-size: 2rem;}
-	.heading-2 {font-size: .5rem;}
+	/*.display-1 {font-size: 2rem;}
+	.heading-2 {font-size: .5rem;}*/
 }
 
 @media (max-width: 767.98px) {
@@ -42,8 +42,7 @@ img {pointer-events: none;}
 .navbar-brand {
 	padding-left: .3rem;
 	/*padding-right: 6rem;*/
-	padding-top: .2rem;
-}
+	padding-top: .2rem;}
 
 .brand-square {
 	width: 2.8em;
@@ -56,20 +55,18 @@ img {pointer-events: none;}
 	border-bottom: 1px solid rgba(255,255,255,0.75);
 	z-index: 999;}
 
-/*.navbar-nav .nav-link {
-    padding-right: 1.4rem;
-    padding-left: 0.7rem;
-}*/
-
-/*.navbar-nav .nav-link:last-child {
-    padding-right: 0;
-}*/
-
 #icons {}
+
+.mt-hero-name {margin-top: 14rem;}
+
+.hero-name {
+	font-size: 8rem;
+	letter-spacing: .3rem;
+	/*margin-bottom: 0px;*/}
 
 .hero-descr {
 	color: #11749e;
-	letter-spacing: .6rem;}
+	letter-spacing: 1.1rem;}
 
 .scroll-btn {
 	background-image: url(../img/scroll-btn.svg);
@@ -80,10 +77,6 @@ img {pointer-events: none;}
 
 /*OPTIONS & ETC*/
 .vh-100 {height: 100vh;}
-.pt-10 {
-	padding-top: 10rem;
-	z-index: 3;
-}
 
 .absolute-center {
 	left: 0;
