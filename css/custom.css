@@ -1,20 +1,6 @@
-@media (max-width: 575.98px) {
-	/*.display-1 {font-size: 2rem;}
-	.heading-2 {font-size: .5rem;}*/
+html, body, * {
+	transition: 1s;
 }
-
-@media (max-width: 767.98px) {
-
-}
-
-@media (max-width: 991.98px) {
-
-}
-
-@media (max-width: 1199.98px) {
-
-}
-
 /*IMAGES*/
 img {pointer-events: none;}
 
@@ -22,7 +8,8 @@ img {pointer-events: none;}
 	background-repeat: no-repeat;
 	background-size: cover;}
 
-.hero-img {background-image: url(../img/bgr-top.jpg);}
+/*.hero-img {background-image: url(../img/bgr-top.jpg);}*/
+.hero-img {background: url(../img/bgr-top.jpg) no-repeat center;}
 .news-img-1 {background-image: url(../img/news-1.jpg);}
 .news-img-2 {background-image: url(../img/news-2.jpg);}
 .blog-img-1 {background-image: url(../img/blog-1.jpg);}
@@ -39,11 +26,6 @@ img {pointer-events: none;}
 
 
 /*NAVIGATION & HERO*/
-.navbar-brand {
-	padding-left: .3rem;
-	/*padding-right: 6rem;*/
-	padding-top: .2rem;}
-
 .brand-square {
 	width: 2.8em;
 	height: 2.8em;
@@ -51,9 +33,16 @@ img {pointer-events: none;}
 	-moz-box-shadow: .5em .35em 0px 0px rgba(255,255,255,0.75);
 	box-shadow: .5em .35em 0px 0px rgba(255,255,255,0.75);}
 
+.navbar {padding: 0;}
+
 #navbar {
 	border-bottom: 1px solid rgba(255,255,255,0.75);
 	z-index: 999;}
+
+.nav-link {   
+    word-wrap: break-word; /* Internet Explorer 5.5+ */}
+
+.nav-item:hover {border-bottom: 2px solid #fff;}
 
 #icons {}
 
@@ -76,7 +65,9 @@ img {pointer-events: none;}
 /*NAVIGATION & HERO END*/
 
 /*OPTIONS & ETC*/
-.vh-100 {height: 100vh;}
+.ind-999 {z-index: 999;}
+
+.vh-hero {height: 100vh;}
 
 .absolute-center {
 	left: 0;
@@ -114,3 +105,48 @@ img {pointer-events: none;}
 
 /*.overflow-hidden {overflow: hidden;}*/
 /*.big-letter {transform: scaleY(2);}*/
+
+
+@media (min-width: 1200px) {
+	/*.hero-name {padding-top: 16rem;}*/
+	/*.hero-descr {margin-bottom: 3rem;}*/
+	.navbar-brand {
+		padding: .2rem 6rem 0 2.3rem;
+		margin-right: 4.2rem;}
+	.px-custom {
+		padding-left: 1.3rem!important;
+		padding-right: 1.3rem!important;}
+}
+
+@media (max-width: 1199.98px) {
+
+}
+
+@media (max-width: 991.98px) {
+
+}
+
+@media (max-width: 767.98px) {
+	.hero-name {font-size: 6rem;}
+	.hero-descr {
+	font-size: 1rem;
+	letter-spacing: 0.8rem;}
+	.vh-opt {height: 50vh!important;}
+	#news, #blog, #note, #ourteam {height: auto;}
+
+@media (max-width: 575.98px) {
+	.vh {height: 75vh;}
+	.hero-name {font-size: 3rem;}
+	.hero-descr {
+	font-size: 1rem;
+	letter-spacing: 0.14rem;}
+}
+@media (max-width: 319.98px) {
+	.hero-name {font-size: 0.8rem;}
+	.hero-descr {
+	font-size: 0.6rem;
+	letter-spacing: 0.1rem;}
+	.news-text {font-size: 0.49rem;}
+	.navbar-brand, .navbar-toggler {margin: 0 auto;}
+	.navbar-brand {padding: 0 1rem 1rem 0;}
+}
